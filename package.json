@@ -1,0 +1,22 @@
+{
+  "name": "typescript5.2-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "@types/core-js": "^2.5.5",
+    "@types/node": "^20.5.7",
+    "core-js": "^3.32.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  }
+}
